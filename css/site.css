@@ -27,7 +27,7 @@ html {
     position: absolute;
     width: 116px;
     height: 32px;
-    background-image: url("/images/menuButton.svg");
+    background-image: url("images/menuButton.svg");
     transition: ease 0.4s;
     cursor: pointer;
 }
