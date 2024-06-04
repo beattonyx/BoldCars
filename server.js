@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname)));
 
 // Маршрут для обслуживания вашего BoldCars.html
-app.get('/', (req, res) => {
+app.get('/BoldCars/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 

@@ -49,7 +49,7 @@ function hideTextArea1() {
             section6.style.height = sectionHeight + 'px';
         } 
         button_1.style.transform = 'rotate(-180deg)';
-        button_1.src = "/images/dropdownGray.png";
+        button_1.src = "images/dropdownGray.png";
         buttonState_1 = false;
     } else {
         textAreaDiv_1.style.transition = 'height 0.5s, opacity 0.8s';
@@ -60,7 +60,7 @@ function hideTextArea1() {
         section6.style.height = sectionHeight + 'px'; 
 
         button_1.style.transform = 'rotate(0)';
-        button_1.src = "/images/dropdown.png";
+        button_1.src = "images/dropdown.png";
 
         buttonState_1 = true;
     }
