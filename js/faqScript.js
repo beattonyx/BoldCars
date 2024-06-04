@@ -80,7 +80,7 @@ function hideTextArea2() {
             section6.style.height = sectionHeight + 'px';
         } 
         button_2.style.transform = 'rotate(-180deg)';
-        button_2.src = "/images/dropdownGray.png";
+        button_2.src = "images/dropdownGray.png";
         buttonState_2 = false;
     } else {
         textAreaDiv_2.style.transition = 'height 0.5s, opacity 1.6s';
@@ -91,7 +91,7 @@ function hideTextArea2() {
         section6.style.height = sectionHeight + 'px'; 
 
         button_2.style.transform = 'rotate(0)';
-        button_2.src = "/images/dropdown.png";
+        button_2.src = "images/dropdown.png";
 
         buttonState_2 = true;
     }
@@ -111,7 +111,7 @@ function hideTextArea3() {
             section6.style.height = sectionHeight + 'px';
         } 
         button_3.style.transform = 'rotate(-180deg)';
-        button_3.src = "/images/dropdownGray.png";
+        button_3.src = "images/dropdownGray.png";
         buttonState_3 = false;
     } else {
         textAreaDiv_3.style.transition = 'height 0.5s, opacity 1.6s';
@@ -122,7 +122,7 @@ function hideTextArea3() {
         section6.style.height = sectionHeight + 'px'; 
 
         button_3.style.transform = 'rotate(0)';
-        button_3.src = "/images/dropdown.png";
+        button_3.src = "images/dropdown.png";
 
         buttonState_3 = true;
     }
@@ -142,7 +142,7 @@ function hideTextArea4() {
             section6.style.height = sectionHeight + 'px';
         } 
         button_4.style.transform = 'rotate(-180deg)';
-        button_4.src = "/images/dropdownGray.png";
+        button_4.src = "images/dropdownGray.png";
         buttonState_4 = false;
     } else {
         textAreaDiv_4.style.transition = 'height 0.5s, opacity 1.4s';
@@ -153,7 +153,7 @@ function hideTextArea4() {
         section6.style.height = sectionHeight + 'px'; 
 
         button_4.style.transform = 'rotate(0)';
-        button_4.src = "/images/dropdown.png";
+        button_4.src = "images/dropdown.png";
 
         buttonState_4 = true;
     }
@@ -173,7 +173,7 @@ function hideTextArea5() {
             section6.style.height = sectionHeight + 'px';
         } 
         button_5.style.transform = 'rotate(-180deg)';
-        button_5.src = "/images/dropdownGray.png";
+        button_5.src = "images/dropdownGray.png";
         buttonState_5 = false;
     } else {
         textAreaDiv_5.style.transition = 'height 0.5s, opacity 1.2s';
@@ -184,7 +184,7 @@ function hideTextArea5() {
         section6.style.height = sectionHeight + 'px'; 
 
         button_5.style.transform = 'rotate(0)';
-        button_5.src = "/images/dropdown.png";
+        button_5.src = "images/dropdown.png";
 
         buttonState_5 = true;
     }
@@ -204,7 +204,7 @@ function hideTextArea6() {
             section6.style.height = sectionHeight + 'px';
         } 
         button_6.style.transform = 'rotate(-180deg)';
-        button_6.src = "/images/dropdownGray.png";
+        button_6.src = "images/dropdownGray.png";
         buttonState_6 = false;
     } else {
         textAreaDiv_6.style.transition = 'height 0.5s, opacity 1.4s';
@@ -215,7 +215,7 @@ function hideTextArea6() {
         section6.style.height = sectionHeight + 'px'; 
 
         button_6.style.transform = 'rotate(0)';
-        button_6.src = "/images/dropdown.png";
+        button_6.src = "images/dropdown.png";
 
         buttonState_6 = true;
     }
@@ -235,7 +235,7 @@ function hideTextArea7() {
             section6.style.height = sectionHeight + 'px';
         } 
         button_7.style.transform = 'rotate(-180deg)';
-        button_7.src = "/images/dropdownGray.png";
+        button_7.src = "images/dropdownGray.png";
         buttonState_7 = false;
     } else {
         textAreaDiv_7.style.transition = 'height 0.5s, opacity 1s';
@@ -246,7 +246,7 @@ function hideTextArea7() {
         section6.style.height = sectionHeight + 'px'; 
 
         button_7.style.transform = 'rotate(0)';
-        button_7.src = "/images/dropdown.png";
+        button_7.src = "images/dropdown.png";
 
         buttonState_7 = true;
     }

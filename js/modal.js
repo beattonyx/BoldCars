@@ -177,7 +177,7 @@ function sendLetterFromModal() {
     let body =  "Phone number: " + phoneFormModal.value + "\n" + " " + questionFormModal.value;
     closeFormModal();
     alert('Your letter has been sent successfully, we will contact you shortly.');
-    fetch('/run-script', { 
+    fetch('/BoldCars/run-script', { 
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
