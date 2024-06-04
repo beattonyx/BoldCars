@@ -27,14 +27,14 @@ html {
     position: absolute;
     width: 116px;
     height: 32px;
-    background-image: url("/images/menuButton.svg");
+    background-image: url("images/menuButton.svg");
     transition: ease 0.4s;
     cursor: pointer;
 }
 
 #menuButton:hover {
     transition: 0.3s;
-    background-image: url("/images/menuButton_hover.svg");
+    background-image: url("images/menuButton_hover.svg");
 }
 
 .locationLabel {
@@ -116,14 +116,14 @@ html {
     position: absolute;
     width: 456px;
     height: 88px;
-    background-image: url("/images/bookButton.svg");
+    background-image: url("images/bookButton.svg");
     transition: ease 0.4s;
     cursor: pointer;
 }
 
 #bookButton:hover, #ourServicesBookButton:hover, #ourGalleryBookButton:hover, #faqBookButton:hover, #modalFormButton:hover {
     transition: 0.3s;
-    background-image: url("/images/bookButton_hover.svg");
+    background-image: url("images/bookButton_hover.svg");
 }
 
 #bookButton {
@@ -168,7 +168,7 @@ html {
     width: 289px;
     height: 50px;
     position: absolute;
-    background-image: url("/images/scroll.svg");
+    background-image: url("images/scroll.svg");
     background-size: contain;
 }
 
@@ -1005,7 +1005,7 @@ outline: none;
     position: absolute;
     width: 116px;
     height: 32px;
-    background-image: url("/images/menuButton.svg");
+    background-image: url("images/menuButton.svg");
     transition: ease 0.4s;
     cursor: pointer;
 } */
@@ -1170,35 +1170,35 @@ outline: none;
 /*Fonts*/
 @font-face {
     font-family: "ASimpler";
-    src: url("/fonts/ASimpler/ASimpler.ttf") format("truetype"), url('/fonts/ASimpler/ASimpler.woff2') format('woff2'), url('/fonts/ASimpler/ASimpler.woff') format('woff');
+    src: url("fonts/ASimpler/ASimpler.ttf") format("truetype"), url('fonts/ASimpler/ASimpler.woff2') format('woff2'), url('fonts/ASimpler/ASimpler.woff') format('woff');
     font-style: normal;
     font-weight: bold;
 }
 
 @font-face {
     font-family: "Inter";
-    src: url("/fonts/interFont/Inter.ttf") format("truetype"), url('/fonts/interFont/Inter.woff2') format('woff2'), url('/fonts/interFont/Inter.woff') format('woff');
+    src: url("fonts/interFont/Inter.ttf") format("truetype"), url('fonts/interFont/Inter.woff2') format('woff2'), url('fonts/interFont/Inter.woff') format('woff');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "InterSemiBold";
-    src: url("/fonts/interSemiBoldFont/Inter-SemiBold.ttf") format("truetype"), url('/fonts/interSemiBoldFont/Inter-SemiBold.woff2') format('woff2'), url('/fonts/interSemiBoldFont/Inter-SemiBold.woff') format('woff');
+    src: url("fonts/interSemiBoldFont/Inter-SemiBold.ttf") format("truetype"), url('fonts/interSemiBoldFont/Inter-SemiBold.woff2') format('woff2'), url('fonts/interSemiBoldFont/Inter-SemiBold.woff') format('woff');
     font-style: normal;
     font-weight: 700;
 }
 
 @font-face {
     font-family: "InterRegular";
-    src: url("/fonts/interFont/Inter-Regular.ttf") format("truetype"), url("/fonts/interFont/Inter-Regular.woff2") format('woff2'), url("/fonts/interFont/Inter-Regular.woff") format('woff');
+    src: url("fonts/interFont/Inter-Regular.ttf") format("truetype"), url("fonts/interFont/Inter-Regular.woff2") format('woff2'), url("fonts/interFont/Inter-Regular.woff") format('woff');
     font-style: normal;
     font-weight: 700;
 }
 
 @font-face {
     font-family: "Molot";
-    src: url("/fonts/Molot/Molot.ttf") format("truetype"), url("/fonts/Molot/Molot.woff2") format('woff2'), url("/fonts/Molot/Molot.woff") format('woff');
+    src: url("fonts/Molot/Molot.ttf") format("truetype"), url("fonts/Molot/Molot.woff2") format('woff2'), url("fonts/Molot/Molot.woff") format('woff');
     font-style: normal;
     font-weight: 700;
 }

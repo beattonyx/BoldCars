@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname)));
 
 // Маршрут для обслуживания вашего BoldCars.html
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'test', 'BoldCars.html'));
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // Маршрут для обработки POST-запроса от кнопки
