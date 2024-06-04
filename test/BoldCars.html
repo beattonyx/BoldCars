@@ -1,0 +1,294 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BoldCars</title>
+    <link rel="stylesheet" href="/css/site.css"/>   
+</head>
+
+<body>
+    <div id="headerDiv">
+        <img draggable="false" class="boldCarsLabel" src="/images/Logo.svg"/>
+        <span id="menuButton"></span>
+        <img draggable="false" class="locationLabel" src="/images/location.svg"/>
+        <a class="phoneNumber" href="tel:+16268226262">
+            <img draggable="false" style="width: 183px; height: 30px;" src="/images/phoneNumber.svg"/>
+        </a>
+        <a href="https://www.facebook.com" class="facebookButton">
+            <img draggable="false" src="/images/facebook.svg"/>
+        </a>
+        <a href="https://www.instagram.com" class="instagramButton">
+            <img draggable="false" src="/images/instagram.svg"/>
+        </a>
+        <a href="https://www.whatsapp.com/" class="whatsupButton">
+            <img draggable="false" src="/images/whatsup.svg"/>
+        </a>
+        <a href="https://web.telegram.org/k/" class="telegramButton">
+            <img draggable="false" src="/images/telegram.svg"/>
+        </a>
+    </div>
+    <section id="section1">
+        <img draggable="false" class="section1_backgroundImage" src="/images/section1_background.png"/>
+        <img draggable="false" class="section1_textBody" src="/images/section1_textBody.svg"/>
+        <span id="bookButton"></span>
+        <img draggable="false" class="numbersImage" src="/images/numbers.svg">
+    </section>
+    <section id="section2">
+        <img draggable="false" class="aboutUs" src="/images/aboutUs.svg">
+        <div class="scrollBrandsDiv">
+            <spans id="scrollBrands" class="scrollBrandsSpan"></span>
+            <button id="firstScrollBrandsBtn" onmouseenter="leftScrollButtonOn()" onmouseleave="leftScrollButtonLeave()"></button>
+            <button id="secondScrollBrandsBtn" onmouseenter="rightScrollButtonOn()" onmouseleave="rightScrollButtonLeave()"></button>
+        </div>
+        <div id="scrollBrandsImage">
+            <img draggable="false" style="padding: 0 20px 0 20px;" src="/images/brands.svg">
+        </div>
+    </section>
+    <section id="section3">
+        <img draggable="false" class="ourServices" src="/images/ourServices.svg">
+        <span id="ourServicesBookButton"></span>
+    </section>
+    <section id="section4">
+        <img draggable="false" class="headingGallery" src="/images/headingGallery.svg">
+        <div class="gallery">
+            <!-- Left /images -->
+            <img draggable="false" id="galleryImageLeft5" src="/images/gif5_opacity.svg">
+            <img draggable="false" id="galleryImageLeft4" src="/images/gif4_opacity.svg">
+            <img draggable="false" id="galleryImageLeft3" src="/images/gif3_opacity.svg">
+            <img draggable="false" id="galleryImageLeft2" src="/images/gif2_opacity.svg">
+            <img draggable="false" id="galleryImageLeft1" src="/images/gif1_opacity.svg">
+            <!-- Left /images -->
+            <!-- Center /images -->
+            <img draggable="false" id="galleryImageCenter1" src="/images/gif1.gif">
+            <img draggable="false" id="galleryImageCenter2" src="/images/gif2.gif">
+            <img draggable="false" id="galleryImageCenter3" src="/images/gif3.gif">
+            <img draggable="false" id="galleryImageCenter4" src="/images/gif4.gif">
+            <img draggable="false" id="galleryImageCenter5" src="/images/gif5.gif">
+            <!-- Center images -->
+            <!-- Right images -->
+            <img draggable="false" id="galleryImageRight1" src="/images/gif1_opacity.svg">
+            <img draggable="false" id="galleryImageRight2" src="/images/gif2_opacity.svg">
+            <img draggable="false" id="galleryImageRight3" src="/images/gif3_opacity.svg">
+            <img draggable="false" id="galleryImageRight4" src="/images/gif4_opacity.svg">
+            <img draggable="false" id="galleryImageRight5" src="/images/gif5_opacity.svg">
+            <!-- Right images -->
+            <!-- <img draggable="false" id="galleryImageCenter" src="images/gif1.gif">
+            <img draggable="false" id="galleryImageRight" src="images/gif2_opacity.svg"> -->
+            <img draggable="false" id="galleryRightBtn" src="/images/rightBtn.svg">
+            <img draggable="false" id="galleryLeftBtn" src="/images/leftBtn.svg">
+        </div>
+        <img draggable="false" id="galleryLabel" src="/images/galleryLabel.png">
+        <span id="ourGalleryBookButton"></span>
+    </section>  
+    <section id="section5"> 
+        <img draggable="false" class="ourReviews" src="/images/ourReviews.png">
+            <img draggable="false" id="reviewGallery1" src="/images/reviewGallery1.png">
+            <img draggable="false" id="reviewGallery2" src="/images/reviewGallery2.png">
+            <img draggable="false" id="reviewGallery3" src="/images/reviewGallery3.png">
+            <img draggable="false" id="reviewGallery1_opacity" src="/images/reviewGallery1_opacity.png">
+            <img draggable="false" id="reviewGallery2_opacity" src="/images/reviewGallery2_opacity.png">
+            <img draggable="false" id="reviewGallery3_opacity" src="/images/reviewGallery3_opacity.png">
+            <img draggable="false" id="reviewGalleryRightBtn" src="/images/rightBtn.svg">
+            <img draggable="false" id="reviewGalleryLeftBtn" src="/images/leftBtn.svg">
+    </section>  
+    <section id="section6"> 
+        <img draggable="false" class="faqLabel" src="/images/FAQ_label.png">
+        <div class="accordions">
+            <!-- Accordion 1 -->
+            <img draggable="false" class="accordion_1" src="/images/accordion_1.png">
+            <img draggable="false" id="button_1" src="/images/dropdown.png">
+            <div id="textAreaDiv_1">
+                <img draggable="false" id="textArea_1" src="/images/textArea_1.png">
+            </div>
+            <div class="accordions_line"></div>
+            <!-- Accordion 1 -->
+
+            <!-- Accordion 2 -->
+            <div style="position: relative; height: 48px;">
+                <img draggable="false" class="accordion_2" src="/images/accordion_2.png">
+                <img draggable="false" id="button_2" src="/images/dropdown.png">
+            </div>
+            <div id="textAreaDiv_2">
+                <img draggable="false" id="textArea_2" src="/images/textArea_2.png">
+            </div>
+            <div class="accordions_line"></div>            
+            <!-- Accordion 2 -->
+            
+            <!-- Accordion 3 -->
+            <div style="position: relative; height: 48px;">
+                <img draggable="false" class="accordion_3" src="/images/accordion_3.png">
+                <img draggable="false" id="button_3" src="/images/dropdown.png">
+            </div>
+            <div id="textAreaDiv_3">
+                <img draggable="false" id="textArea_3" src="/images/textArea_3.png">
+            </div>
+            <div class="accordions_line"></div>
+            <!-- Accordion 3 -->
+
+            <!-- Accordion 4 -->
+            <div style="position: relative; height: 48px;">
+                <img draggable="false" class="accordion_4" src="/images/accordion_4.png">
+                <img draggable="false" id="button_4" src="/images/dropdown.png">
+            </div>
+            <div id="textAreaDiv_4">
+                <img draggable="false" id="textArea_4" src="/images/textArea_4.png">
+            </div>
+            <div class="accordions_line"></div>
+            <!-- Accordion 4 -->            
+            
+            <!-- Accordion 5 -->
+            <div style="position: relative; height: 48px;">
+                <img draggable="false" class="accordion_5" src="/images/accordion_5.png">
+                <img draggable="false" id="button_5" src="/images/dropdown.png">
+            </div>
+            <div id="textAreaDiv_5">
+                <img draggable="false" id="textArea_5" src="/images/textArea_5.png">
+            </div>
+            <div class="accordions_line"></div>
+            <!-- Accordion 5 --> 
+            
+            <!-- Accordion 6 -->
+            <div style="position: relative; height: 48px;">
+                <img draggable="false" class="accordion_6" src="/images/accordion_6.png">
+                <img draggable="false" id="button_6" src="/images/dropdown.png">
+            </div>
+            <div id="textAreaDiv_6">
+                <img draggable="false" id="textArea_6" src="/images/textArea_6.png">
+            </div>
+            <div class="accordions_line"></div>
+            <!-- Accordion 6 -->
+            
+            <!-- Accordion 7 -->
+            <div style="position: relative; height: 48px;">
+                <img draggable="false" class="accordion_7" src="/images/accordion_6.png">
+                <img draggable="false" id="button_7" src="/images/dropdown.png">
+            </div>
+            <div id="textAreaDiv_7">
+                <img draggable="false" id="textArea_7" src="/images/textArea_7.png">
+            </div>
+            <div class="accordions_line"></div>
+            <!-- Accordion 7 -->
+        </div>
+
+        <img draggable="false" class="faqForm" src="/images/faqForm.png" alt="">
+        <span id="faqBookButton"></span>
+
+        <span id="namePlaceholder">Name</span>
+        <input required type="text" id="formName" name="formName">
+        
+        <span id="phoneNumberPlaceholder">Phone Number</span>
+        <input required type="tel" id="formPhoneNumber" name="formPhoneNumber">
+        
+        <span id="questionPlaceholder">Write your question</span>
+        <textarea id="letterFrom" name="letterFrom"> </textarea>
+    </section>  
+    <section id="section7">
+        <img draggable="false" class="contacts" src="/images/contacts.png" alt="">
+            <a href="https://www.facebook.com" class="facebookContactsButton">
+                <img draggable="false" src="/images/facebook.svg"/>
+            </a>
+            <a href="https://www.instagram.com" class="instagramContactsButton">
+                <img draggable="false" src="/images/instagram.svg"/>
+            </a>
+            <a href="https://www.whatsapp.com/" class="whatsupContactsButton">
+                <img draggable="false" src="/images/whatsup.svg"/>
+            </a>
+            <a href="https://web.telegram.org/k/" class="telegramContactsButton">
+                <img draggable="false" src="/images/telegram.svg"/>
+            </a>
+        <div id="map"></div>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMInU02jNBPLOm-gVUUte48PSGC4xXVGI&callback=initMap" async defer></script>
+        <script>
+            function initMap() {
+                // Координаты для маркера (замените на ваши координаты)
+                var companyLocation = {lat: 34.083468, lng: -118.146197};
+                
+                // Создание карты, центрированной на указанных координатах
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 200,
+                    center: companyLocation
+                });
+                
+                // Создание маркера на карте
+                var marker = new google.maps.Marker({
+                    position: companyLocation,
+                    map: map,
+                    title: 'BOLD CARS - California Collision Center'
+                });
+            }
+        </script>
+    </section>
+    <section class="footer">
+        <img draggable="false" src="/images/footer.png" class="footerImage">
+        <div class="footerMenu">
+            <div class="leftFooterMenu">
+                <a href="#headerDiv">Home</a>
+                <a href="#section2">About Us</a>
+                <a href="#section3">Services</a>
+            </div>
+            <div class="rightFooterMenu">
+                <a href="#section4">Gallery</a>
+                <a href="#section5">Reviews</a>
+                <a href="#section6">FAQ</a>
+            </div>
+        </div>
+        <div class="footerContacts">
+            <a href="https://www.facebook.com" style="width: 25px; height: 25px; text-decoration: none;">
+                <img draggable="false" src="/images/facebook.svg"/>
+            </a>
+            <a href="https://www.instagram.com" style="width: 25px; height: 25px; text-decoration: none;">
+                <img draggable="false" src="/images/instagram.svg"/>
+            </a>
+            <a href="https://www.whatsapp.com/" style="width: 25px; height: 25px; text-decoration: none;">
+                <img draggable="false" src="/images/whatsup.svg"/>
+            </a>
+            <a href="https://web.telegram.org/k/" style="width: 25px; height: 25px; text-decoration: none;">
+                <img draggable="false" src="/images/telegram.svg"/>
+            </a>
+        </div>
+        <a class="blackPhoneNumber" href="tel:+16268226262">
+            <img draggable="false" style="width: 183px; height: 30px;" src="/images/blackPhoneNumber.svg"/>
+        </a>
+    </section>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <!-- <span id="menuButtonModal"></span> -->
+            <div class="menuModalDiv">
+                <span id="modalHomeButton">HOME</span>
+                <span id="modalAboutUsButton">ABOUT US</span>
+                <span id="modalOurSrvicesButton">OUR SERVICES</span>
+                <span id="modalGalleryButton">GALLERY</span>
+                <span id="modalReviewsButton">REVIEWS</span>
+                <span id="modalFAQButton">FAQ</span>
+                <span id="modalContactsButton">CONTACTS</span>
+            </div>
+            <img src="/images/close.png" id="closeMenuButton">
+        </div>
+    </div>
+
+    <div id="modalForm" class="modalForm">
+        <div class="modalForm-content">
+            <img draggable="false" src="/images/forma.png" class="formaModal">
+            <span id="modalFormButton"></span>        
+            <span id="namePlaceholderModal">Name</span>
+            <input required type="text" id="formNameModal" name="formNameModal">
+            
+            <span id="phoneNumberPlaceholderModal">Phone Number</span>
+            <input required type="tel" id="formPhoneNumberModal" name="formPhoneNumberModal">
+            
+            <span id="questionPlaceholderModal">Write your question</span>
+            <textarea id="letterFromModal" name="letterFromModal"></textarea>
+            <img src="/images/close.png" id="closeModalFormaButton">
+        </div>
+    </div>
+    
+</body>
+<script src="/js/myscript.js"></script>
+<script src="/js/secondScript.js"></script>
+<script src="/js/reviewGallery.js"></script>
+<script src="/js/faqScript.js"></script>
+<script src="/js/forms.js"></script>
+<script src="/js/modal.js"></script>
+</html>
+
